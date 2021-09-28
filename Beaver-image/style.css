@@ -46,7 +46,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  z-index: 4;
+  z-index: 3;
   background-color: var(--basic-color);
 }
 /* face-lower */
@@ -152,9 +152,9 @@ h2 {
 /* left-eye */
 .left-eye {
   position: absolute;
-  width: 20%;
-  height: 25%;
-  top: 30%;
+  width: 23%;
+  height: 28%;
+  top: 28%;
   left: 20%;
   border-radius: 50%;
   z-index: 4;
@@ -164,9 +164,9 @@ h2 {
 /* right-eye */
 .right-eye {
   position: absolute;
-  width: 20%;
-  height: 25%;
-  top: 30%;
+  width: 23%;
+  height: 28%;
+  top: 28%;
   right: 20%;
   border-radius: 50%;
   z-index: 4;
@@ -224,8 +224,122 @@ h2 {
   height: 20%;
   top: 55%;
   left: 40%;
+  z-index: 5;
+  border-radius: 50%;
+  border: 1px solid var(--eye-white-color);
+  background-color: var(--nose-hair-color);
+}
+/* mouth-left */
+.mouth-left {
+  position: absolute;
+  width: 23%;
+  height: 23%;
+  top: 65%;
+  left: 30%;
   z-index: 4;
   border-radius: 50%;
   border: 1px solid var(--nose-hair-color);
-  background-color: var(--tooth-color);
+  background-color: var(--body-bg-color);
+}
+/* mouth-right */
+.mouth-right {
+  position: absolute;
+  width: 23%;
+  height: 23%;
+  top: 65%;
+  right: 30%;
+  z-index: 4;
+  border-radius: 50%;
+  border: 1px solid var(--nose-hair-color);
+  background-color: var(--body-bg-color);
+}
+/* teeth */
+.left-tooth {
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  top: 80%;
+  left: 40%;
+  z-index: 3;
+  border-radius: 0 0 50% 50%;
+  border: 1px solid var(--nose-hair-color);
+  background-color: var(--eye-white-color);
+}
+.right-tooth {
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  top: 80%;
+  right: 40%;
+  z-index: 3;
+  border-radius: 0 0 50% 50%;
+  border: 1px solid var(--nose-hair-color);
+  background-color: var(--eye-white-color);
+}
+/* hair-left-1 */
+.hair-left-1 {
+  position: absolute;
+  width: 40%;
+  height: 15%;
+  top: 65%;
+  left: -3%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(100% 40%, 20% 50%, 100% 50%);
+}
+/* hair-left-2 */
+.hair-left-2 {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  top: 70%;
+  left: 5%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(100% 40%, 20% 50%, 100% 50%);
+}
+/* hair-left-3 */
+.hair-left-3 {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  top: 75%;
+  left: 10%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(100% 40%, 20% 50%, 100% 50%);
+}
+
+/* hair-right-1 */
+.hair-right-1 {
+  position: absolute;
+  width: 40%;
+  height: 15%;
+  top: 65%;
+  right: -3%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(80% 40%, 0 50%, 0 40%);
+}
+/* hair-right-2 */
+.hair-right-2 {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  top: 70%;
+  right: 5%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(80% 40%, 0 50%, 0 40%);
+}
+/* hair-right-3 */
+.hair-right-3 {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  top: 75%;
+  right: 10%;
+  z-index: 5;
+  background-color: var(--nose-hair-color);
+  clip-path: polygon(80% 40%, 0 50%, 0 40%);
 }
